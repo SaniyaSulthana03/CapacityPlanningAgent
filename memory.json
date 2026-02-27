@@ -1,0 +1,110 @@
+[
+    {
+        "part_id": "P1001",
+        "machine_id": "M03",
+        "operator_id": "O17",
+        "operator_name": "Operator_25",
+        "success": true,
+        "time_taken": 5.99,
+        "risk": 0.06
+    },
+    {
+        "part_id": "P1001",
+        "machine_id": "M29",
+        "operator_id": "O014",
+        "operator_name": "Operator_14",
+        "success": true,
+        "time_taken": 10.37,
+        "risk": 0.16
+    },
+    {
+        "part_id": "P1001",
+        "machine_id": "M29",
+        "operator_id": "O014",
+        "operator_name": "Operator_14",
+        "success": true,
+        "time_taken": 10.37,
+        "risk": 0.16
+    },
+    {
+        "part_id": "P1000",
+        "machine_id": "",
+        "operator_id": "",
+        "operator_name": "",
+        "success": true,
+        "time_taken": 0,
+        "risk": 0
+    },
+    {
+        "part_id": "P1001",
+        "machine_id": "M29",
+        "operator_id": "O014",
+        "operator_name": "Operator_14",
+        "success": true,
+        "time_taken": 6.46,
+        "risk": 0.16
+    },
+    {
+        "part_id": "P1001",
+        "machine_id": "M29",
+        "operator_id": "O014",
+        "operator_name": "Operator_14",
+        "success": false,
+        "time_taken": 6.46,
+        "risk": 0.16
+    },
+    {
+        "part_id": "P1001",
+        "machine_id": "M01",
+        "operator_id": "O169",
+        "operator_name": "Operator_169",
+        "success": true,
+        "time_taken": 5.85,
+        "risk": 0.05
+    },
+    {
+        "part_id": "P1005",
+        "machine_id": "M05",
+        "operator_id": "O005",
+        "operator_name": "Operator_5",
+        "success": false,
+        "time_taken": 3.38,
+        "risk": 0.04
+    },
+    {
+        "part_id": "P1005",
+        "machine_id": "M05",
+        "operator_id": "O005",
+        "operator_name": "Operator_5",
+        "success": true,
+        "time_taken": 28.06,
+        "risk": 0.04
+    },
+    {
+        "part_id": "P1005",
+        "machine_id": "",
+        "operator_id": "",
+        "operator_name": "",
+        "success": true,
+        "time_taken": 0,
+        "risk": 0
+    },
+    {
+        "part_id": "P1009",
+        "machine_id": "M09",
+        "operator_id": "O024",
+        "operator_name": "Operator_24",
+        "success": true,
+        "time_taken": 27.97,
+        "risk": 0.06
+    },
+    {
+        "part_id": "P1009",
+        "machine_id": "M09",
+        "operator_id": "O024",
+        "operator_name": "Operator_24",
+        "success": false,
+        "time_taken": 27.97,
+        "risk": 0.06
+    }
+]
