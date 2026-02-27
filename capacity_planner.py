@@ -142,7 +142,7 @@ def learning_agent(state: CapacityState):
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0.2,
-    api_key=os.getenv("GROQ_API_KEY")
+    groq_api_key=os.getenv("GROQ_API_KEY")
 )
 
 
@@ -301,4 +301,5 @@ if __name__ == "__main__":
         print("No feasible recommendation found.")
 
     print("\n AI EXPLANATION \n")
+
     print(result["explanation"])
