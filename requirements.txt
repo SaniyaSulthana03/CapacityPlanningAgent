@@ -1,0 +1,9 @@
+pandas
+python-dotenv
+langgraph
+langchain
+langchain-groq
+typing-extensions
+streamlit
+jupyter
+ipykernel
