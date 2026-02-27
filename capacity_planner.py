@@ -139,10 +139,24 @@ def learning_agent(state: CapacityState):
 
 
 
+# llm = ChatGroq(
+#     model="llama-3.1-8b-instant",
+#     temperature=0.2,
+#     groq_api_key=os.getenv("GROQ_API_KEY")
+# )
+
+
+import os
+
+GROQ_KEY = os.getenv("GROQ_API_KEY")
+
+if not GROQ_KEY:
+    raise ValueError("GROQ_API_KEY is not set")
+
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
     temperature=0.2,
-    groq_api_key=os.getenv("GROQ_API_KEY")
+    api_key=GROQ_KEY
 )
 
 
@@ -303,3 +317,4 @@ if __name__ == "__main__":
     print("\n AI EXPLANATION \n")
 
     print(result["explanation"])
+
