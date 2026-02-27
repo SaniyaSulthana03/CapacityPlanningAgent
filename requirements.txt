@@ -7,3 +7,23 @@ typing-extensions
 streamlit
 jupyter
 ipykernel
+
+
+pandas
+python-dotenv
+
+# LangGraph + LLM
+langchain>=1.2
+langchain-groq
+langgraph
+
+# UI
+streamlit>=1.31.0
+altair>=6.0.0
+
+# Jupyter
+jupyter
+ipykernel
+
+# Typing
+typing-extensions
